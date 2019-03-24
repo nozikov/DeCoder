@@ -1,42 +1,39 @@
 package DeCoderProject.State;
 
-import DeCoderProject.*;
-
-import java.util.Scanner;
-
 public class DecoderState implements State {
-    private final String codeWord;
+    private String codeWord;
     private final String cipher;
     private final int codeNumber;
 
     public DecoderState(final DecoderStateBuilder decoderStateBuilder) {
-        this.codeWord = decoderStateBuilder.getCodeWord();
         this.cipher = decoderStateBuilder.getCipher();
         this.codeNumber = decoderStateBuilder.getCodeNumber();
     }
 
     @Override
-    public void cipherProcessing() {
-
+    public void messageEncrypt() {
+        StringBuilder decryptedMessage = new StringBuilder();
+        for (int i = 0; i < cipher.length(); i++) {
+            int characterNumber = cipher.charAt(i) - codeNumber;
+            char encryptedСharacter = (char) characterNumber;
+            decryptedMessage.append(encryptedСharacter);
+        }
+        setCodeWord(decryptedMessage.toString());
     }
 
-    @Override
-    public void outputCipher() {
+    public String getCodeWord() {
+        return codeWord;
+    }
 
+    private void setCodeWord(final String codeWord) {
+        this.codeWord = codeWord;
     }
 
     public static class DecoderStateBuilder {
 
-        private String codeWord;
-
         private String cipher;
 
         private int codeNumber;
-
-        public DecoderStateBuilder codeWord(final String codeWord) {
-            this.codeWord = codeWord;
-            return this;
-        }
 
         public DecoderStateBuilder cipher(final String cipher) {
             this.cipher = cipher;
@@ -46,10 +43,6 @@ public class DecoderState implements State {
         public DecoderStateBuilder codeNumber(final int codeNumber) {
             this.codeNumber = codeNumber;
             return this;
-        }
-
-        public String getCodeWord() {
-            return codeWord;
         }
 
         public String getCipher() {

@@ -20,25 +20,9 @@ public class DeCoder {
     }
 
     public static void main(String[] args) {
-        DeCoder deCoder = new DeCoder();
-        deCoder.deCoderUI();
+        DeCoderUI deCoderUI = new DeCoderUI();
+        deCoderUI.selectCoderOrDecoder();
 
-    }
-
-    private void deCoderUI() {
-        System.out.print("\nSelect an action:\n\n1 - Encode message;\n2 - Decode the message;\n\n0 - Exit\n\n>>> ");
-        int selectAction = deCoderScanner.nextInt();
-        switch (selectAction) {
-            case 1:
-                break;
-            case 2:
-                break;
-            case 3:
-                break;
-            default:
-                System.out.println("Error! Please input number from 0 to 2.");
-                deCoderUI();
-        }
     }
 
 }
