@@ -2,6 +2,6 @@ package DeCoderProject.State;
 
 public interface State {
 
-    public void messageEncrypt();
+    String encryptMessage(final String message, final int codeNumber);
 
 }
