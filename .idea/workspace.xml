@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ecf0eeb-9ee8-48d7-9ee1-c7419b011b35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/DeCoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/DeCoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/CoderState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/CoderState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/DecoderState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/DecoderState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeCoder/DeCoderProject/State/State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeCoderProject/DeCoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeCoderProject/DeCoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeCoderProject/DeCoderUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeCoderProject/DeCoderUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeCoderProject/State/CoderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeCoderProject/State/CoderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeCoderProject/State/DecoderState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeCoderProject/State/DecoderState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeCoderProject/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DeCoderProject/State/State.java" afterDir="false" />
-    </list>
+    <list default="true" id="7ecf0eeb-9ee8-48d7-9ee1-c7419b011b35" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +155,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554022762396" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554035831235" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
